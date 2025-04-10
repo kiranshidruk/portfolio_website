@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#hero" className="text-xl font-bold">
-              <span className="text-blue-500">John</span>Doe
+              <span className="text-blue-500">Kiran</span>Shidruk
             </a>
-            <p className="text-gray-400 mt-2">Full Stack Developer</p>
+            <p className="text-gray-400 mt-2">AI Engineer & Data Scientist</p>
           </div>
           
           <div className="flex flex-col items-center md:items-end">
@@ -29,7 +29,7 @@ export default function Footer() {
                 <Dribbble size={20} />
               </a>
             </div>
-            <p className="text-gray-400 text-sm">© {currentYear} John Doe. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© {currentYear} Kiran Shidruk. All rights reserved.</p>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ export default function Header() {
     >
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#hero" className="text-xl font-bold text-primary">
-          <span className="text-blue-500">John</span>Doe
+          <span className="text-blue-500">Kiran</span>Shidruk
         </a>
         
         {/* Mobile Menu Button */}

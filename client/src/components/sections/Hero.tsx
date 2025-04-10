@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import profileImage from "../../assets/Kiran_Shidruk_Portrait.jpg";
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Hello, I'm <span className="text-blue-500">John Doe</span>
+            Hello, I'm <span className="text-blue-500">Kiran Shidruk</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
             AI Engineer & Data Scientist
@@ -45,13 +46,11 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div className="rounded-full w-64 h-64 overflow-hidden border-4 border-white shadow-lg">
-            <svg
-              className="w-full h-full text-gray-300"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-            </svg>
+            <img 
+              src={profileImage} 
+              alt="Kiran Shidruk" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </motion.div>
       </div>
