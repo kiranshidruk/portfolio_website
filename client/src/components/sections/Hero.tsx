@@ -49,7 +49,8 @@ export default function Hero() {
             <img 
               src={profileImage} 
               alt="Kiran Shidruk" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
+              style={{ objectPosition: "center 20%" }}
             />
           </div>
         </motion.div>
