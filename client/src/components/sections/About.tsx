@@ -20,13 +20,13 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg mb-6">
-              I'm a passionate full-stack developer with over 5 years of experience building web applications and digital solutions for clients across various industries.
+              I'm a dedicated AI Engineer and Data Scientist with over 5 years of experience developing machine learning models, neural networks, and data analytics solutions for organizations across various industries.
             </p>
             <p className="text-lg mb-6">
-              My journey in software development began at University of Technology where I earned my Bachelor's degree in Computer Science. Since then, I've worked with agencies and startups to deliver high-quality, user-focused solutions.
+              My journey began at University of Technology where I earned my Master's degree in Artificial Intelligence and Machine Learning. Since then, I've worked with research labs, tech companies, and enterprise clients to deliver innovative AI-powered solutions that drive business impact.
             </p>
             <p className="text-lg mb-6">
-              When I'm not coding, you can find me exploring the outdoors, playing guitar, or experimenting with new technologies to expand my skillset.
+              When I'm not building AI systems, you can find me contributing to open-source machine learning projects, attending AI conferences, or researching the latest advancements in deep learning and natural language processing.
             </p>
             
             <div className="flex space-x-4 mt-8">
@@ -60,26 +60,26 @@ export default function About() {
           <div className="grid grid-cols-2 gap-4">
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <h3 className="font-semibold mb-2 text-primary">Frontend</h3>
-                <p className="text-muted-foreground">React, Vue, Angular, HTML/CSS, JavaScript, TypeScript</p>
+                <h3 className="font-semibold mb-2 text-primary">AI & ML</h3>
+                <p className="text-muted-foreground">TensorFlow, PyTorch, Keras, Scikit-learn, Transformers, GANs</p>
               </CardContent>
             </Card>
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <h3 className="font-semibold mb-2 text-primary">Backend</h3>
-                <p className="text-muted-foreground">Node.js, Express, Django, Flask, Laravel</p>
+                <h3 className="font-semibold mb-2 text-primary">Data Science</h3>
+                <p className="text-muted-foreground">Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly</p>
               </CardContent>
             </Card>
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <h3 className="font-semibold mb-2 text-primary">Database</h3>
-                <p className="text-muted-foreground">MongoDB, PostgreSQL, MySQL, Firebase</p>
+                <h3 className="font-semibold mb-2 text-primary">Big Data</h3>
+                <p className="text-muted-foreground">Spark, Hadoop, Kafka, Airflow, Databricks, Snowflake</p>
               </CardContent>
             </Card>
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <h3 className="font-semibold mb-2 text-primary">DevOps</h3>
-                <p className="text-muted-foreground">AWS, Docker, CI/CD, Git, GitHub Actions</p>
+                <h3 className="font-semibold mb-2 text-primary">Cloud & MLOps</h3>
+                <p className="text-muted-foreground">AWS SageMaker, Azure ML, GCP AI Platform, MLflow, Kubeflow</p>
               </CardContent>
             </Card>
           </div>

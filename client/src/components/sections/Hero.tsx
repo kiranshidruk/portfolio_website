@@ -17,10 +17,10 @@ export default function Hero() {
             Hello, I'm <span className="text-blue-500">John Doe</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
-            Full Stack Developer
+            AI Engineer & Data Scientist
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-            I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive to user needs.
+            I develop cutting-edge AI solutions, machine learning models, and data-driven applications to solve complex business problems and drive innovation.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button
