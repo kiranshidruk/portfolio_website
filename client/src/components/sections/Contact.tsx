@@ -12,12 +12,13 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Dribbble } from "lucide-react";
+import { Mail, Phone, MapPin} from "lucide-react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
+import { SiGithub, SiLeetcode, SiLinkedin, SiX } from "react-icons/si";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -98,7 +99,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a href="tel:+1234567890" className="text-muted-foreground hover:text-blue-500 transition-colors">
-                    +1 (234) 567-890
+                    +1 (215) 240-9822
                   </a>
                 </div>
               </div>
@@ -109,24 +110,24 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, California</p>
+                  <p className="text-muted-foreground">Philadelphia, PA</p>
                 </div>
               </div>
             </div>
             
             <h3 className="text-xl font-semibold mb-4">Connect With Me</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
-                <Github className="h-5 w-5" />
+              <a href="https://github.com/kiranshidruk" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
+                <SiGithub className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
-                <Linkedin className="h-5 w-5" />
+              <a href="https://www.linkedin.com/in/kiranshidruk/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
+                < SiLinkedin className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://x.com/kiran_shidruk" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
+                < SiX className="h-5 w-5" />
               </a>
-              <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
-                <Dribbble className="h-5 w-5" />
+              <a href="https://leetcode.com/u/KiranShidruk/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 hover:bg-gray-100 text-muted-foreground hover:text-blue-500 p-3 rounded-full transition-colors">
+                <SiLeetcode className="h-5 w-5" />
               </a>
             </div>
           </div>

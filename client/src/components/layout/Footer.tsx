@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Dribbble } from "lucide-react";
+import { SiGithub, SiLeetcode, SiLinkedin, SiX } from "react-icons/si";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,17 +16,17 @@ export default function Footer() {
           
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Github size={20} />
+              <a href="https://github.com/kiranshidruk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <SiGithub size={20} />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin size={20} />
+              <a href="https://linkedin.com/in/kiranshidruk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <SiLinkedin size={20} />
               </a>
-              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={20} />
+              <a href="https://x.com/kiran_shidruk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <SiX size={20} />
               </a>
-              <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Dribbble size={20} />
+              <a href="https://leetcode.com/u/KiranShidruk/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <SiLeetcode size={20} />
               </a>
             </div>
             <p className="text-gray-400 text-sm">© {currentYear} Kiran Shidruk. All rights reserved.</p>

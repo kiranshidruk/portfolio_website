@@ -13,42 +13,44 @@ import {
   FaServer,
   FaNetworkWired,
 } from "react-icons/fa";
-import { SiTensorflow, SiPytorch, SiKeras, SiScikitlearn, SiNumpy, SiPandas, SiPlotly, SiApachekafka, SiApachespark } from "react-icons/si";
+import {
+  SiTensorflow,
+  SiPytorch,
+  SiKeras,
+  SiScikitlearn,
+  SiNumpy,
+  SiPandas,
+  SiPlotly,
+  SiApachekafka,
+  SiApachespark,
+} from "react-icons/si";
 
 // Project data
 export const projects = [
   {
-    title: "Computer Vision Healthcare System",
-    description: "An AI-powered system for medical image analysis that uses deep learning to detect anomalies in X-rays and MRIs with 94% accuracy.",
-    imageUrl: "https://example.com/project1.jpg",
-    technologies: ["PyTorch", "TensorFlow", "OpenCV", "Python"],
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Self-Driving Car",
+    description: "Developed a self-driving car simulation system using CNNs with 95%+ accuracy and real-time decision latency under 50ms.",
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
+    imageUrl: "images/self_driving_car.png",
+    liveUrl: "",
+    githubUrl: "https://github.com/kiranshidruk/Self-Driving-Car",
   },
   {
-    title: "Natural Language Processing Chatbot",
-    description: "An advanced conversational AI using transformer-based architecture to provide personalized customer support and reduce query resolution time by 65%.",
-    imageUrl: "https://example.com/project2.jpg",
-    technologies: ["BERT", "GPT", "spaCy", "FastAPI"],
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "MLOps US Visa Prediction",
+    description: "Built a robust pipeline using MongoDB, AWS, and Random Forest with 97.33% accuracy in visa approval prediction.",
+    technologies: ["Python", "MongoDB", "AWS", "Random Forest", "KNN"],
+    imageUrl: "images/us_visa_prediction.png",
+    liveUrl: "",
+    githubUrl: "https://github.com/kiranshidruk/MLOps-Prod-US-VISA-Prediction",
   },
   {
-    title: "Predictive Analytics Platform",
-    description: "A big data platform that processes terabytes of data to generate real-time insights and predict market trends with 87% precision.",
-    imageUrl: "https://example.com/project3.jpg",
-    technologies: ["Spark", "Kafka", "Scikit-learn", "Plotly"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Recommendation Engine",
-    description: "A collaborative filtering and content-based recommendation system that increased user engagement by 45% for an e-commerce platform.",
-    imageUrl: "https://example.com/project4.jpg",
-    technologies: ["Python", "NumPy", "Pandas", "Flask"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
+    title: "BELONG - Multilingual Legal Assistant",
+    description: "Created a multilingual legal assistance app using Flask and OpenAI to automate and process 30+ legal documents.",
+    technologies: ["Python", "Flask", "OpenAI", "JavaScript", "Text-to-Audio"],
+    imageUrl: "images/belong.png",
+    liveUrl: "",
+    githubUrl: "https://github.com/kiranshidruk/Belong",
+  }
 ];
 
 // Skills data
@@ -122,36 +124,35 @@ export const skillCategories = [
 // Experience data
 export const experiences = [
   {
-    title: "Senior AI Engineer",
-    company: "TechInnovate AI",
-    period: "2020 - Present",
+    title: "Machine Learning Research Intern",
+    company: "Drexel University",
+    period: "Dec 2024 – Present",
     responsibilities: [
-      "Led a team of 5 ML engineers in developing computer vision algorithms for autonomous systems",
-      "Implemented transformer-based NLP models improving customer sentiment analysis accuracy by 35%",
-      "Created an MLOps pipeline resulting in 60% faster model deployment and improved monitoring",
-      "Collaborated with data scientists and product managers to define AI strategy and roadmap",
-    ],
-  },
-  {
-    title: "Machine Learning Engineer",
-    company: "DataMind Solutions",
-    period: "2018 - 2020",
-    responsibilities: [
-      "Developed predictive models using PyTorch and TensorFlow for financial forecasting",
-      "Built recommendation systems increasing customer engagement by 40%",
-      "Optimized machine learning pipelines reducing inference time by 65%",
-      "Worked with large datasets using Spark and distributed computing techniques",
+      "Evaluating vision-language models, aiming to improve zero-shot learning accuracy by 10% for hand-drawn scientific models.",
+      "Assessing 5+ models including CLIP, Llava 1.5, and GPT-4V for suitability in zero-shot learning tasks.",
+      "Developing continual learning algorithms and conducting 20+ experiments to optimize performance.",
+      "Contributing to academic reports targeting 20% improvement in model robustness and efficiency."
     ],
   },
   {
     title: "Data Scientist",
-    company: "Analytics Insight",
-    period: "2016 - 2018",
+    company: "Great Software Laboratory, Pune, India",
+    period: "May 2021 – Dec 2023",
     responsibilities: [
-      "Performed exploratory data analysis on customer behavior datasets",
-      "Created interactive dashboards and visualizations to communicate findings to stakeholders",
-      "Developed statistical models for anomaly detection in security systems",
-      "Collaborated with cross-functional teams to implement data-driven decision making",
+      "Engineered an AI-driven anomaly detection system using Naive Bayes, improving detection accuracy by 15%.",
+      "Designed a log parsing framework to reduce latency by 12% while structuring raw logs.",
+      "Integrated rule-based triggers and ML models, reducing false positives by 20%.",
+      "Deployed solution to handle 1,000+ events/sec, reducing operational response time by 20%."
+    ],
+  },
+  {
+    title: "Trainee Software Engineer",
+    company: "Hefshine Softwares, Pune, India",
+    period: "Jan 2021 – May 2021",
+    responsibilities: [
+      "Architected full-stack application to enhance data retrieval efficiency by 25%.",
+      "Developed scalable backend using SpringBoot, SQL, and REST APIs to handle 10,000+ queries/day.",
+      "Improved system efficiency by 30%, delivering on-time, maintainable application."
     ],
   },
 ];
@@ -159,23 +160,27 @@ export const experiences = [
 // Education data
 export const education = [
   {
-    degree: "Master of Science in Artificial Intelligence",
-    institution: "University of Technology",
-    period: "2016 - 2018",
+    degree: "M.S. in Artificial Intelligence and Machine Learning",
+    institution: "Drexel University",
+    period: "2024 – 2025",
   },
   {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
-    period: "2012 - 2016",
+    degree: "B.E. in Electronics and Telecommunication Engineering",
+    institution: "Mumbai University",
+    period: "2015 – 2019",
+  },
+];
+
+// Certification data
+export const certifications = [
+  {
+    title: "Post Graduate Program in AI and Machine Learning",
+    institution: "IIIT Bangalore",
+    period: "Jan 2022 – May 2023",
   },
   {
-    degree: "Deep Learning Specialization",
-    institution: "Coursera (by Andrew Ng)",
-    period: "2019",
-  },
-  {
-    degree: "TensorFlow Developer Certification",
-    institution: "Google",
-    period: "2020",
+    title: "IBM Professional Data Science Certificate",
+    institution: "Coursera / IBM",
+    period: "Mar 2022 – May 2022",
   },
 ];

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
 import { Card, CardContent } from "@/components/ui/card";
 import SectionTitle from "@/components/ui/section-title";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
@@ -23,7 +23,7 @@ export default function About() {
               I'm a dedicated AI Engineer and Data Scientist with over 5 years of experience developing machine learning models, neural networks, and data analytics solutions for organizations across various industries.
             </p>
             <p className="text-lg mb-6">
-              My journey began at University of Technology where I earned my Master's degree in Artificial Intelligence and Machine Learning. Since then, I've worked with research labs, tech companies, and enterprise clients to deliver innovative AI-powered solutions that drive business impact.
+            My journey in AI began at Drexel University, where I am currently pursuing a Master’s degree in Artificial Intelligence and Machine Learning. Since then, I've worked with research labs, tech companies, and enterprise clients to deliver innovative AI-powered solutions that drive business impact.
             </p>
             <p className="text-lg mb-6">
               When I'm not building AI systems, you can find me contributing to open-source machine learning projects, attending AI conferences, or researching the latest advancements in deep learning and natural language processing.
@@ -31,28 +31,28 @@ export default function About() {
             
             <div className="flex space-x-4 mt-8">
               <a 
-                href="https://github.com/" 
+                href="https://github.com/kiranshidruk" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-blue-500 transition-colors"
               >
-                <Github size={24} />
+                <SiGithub size={24} />
               </a>
               <a 
-                href="https://linkedin.com/" 
+                href="https://linkedin.com/in/kiranshidruk" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-blue-500 transition-colors"
               >
-                <Linkedin size={24} />
+                <SiLinkedin size={24} />
               </a>
               <a 
-                href="https://twitter.com/" 
+                href="https://x.com/kiran_shidruk" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-blue-500 transition-colors"
               >
-                <Twitter size={24} />
+                <SiX size={24} />
               </a>
             </div>
           </div>

@@ -58,10 +58,17 @@ export default function Resume() {
             
             {/* Download Button */}
             <div className="text-center">
+            <a
+              href="/Kiran_Shidruk_Resume.pdf"
+              download="kiran_shidruk_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button className="bg-blue-500 hover:bg-blue-600 text-white inline-flex items-center gap-2 px-6 py-3 h-auto">
                 <Download className="h-5 w-5" />
                 Download Full Resume
               </Button>
+            </a>
             </div>
           </CardContent>
         </Card>
